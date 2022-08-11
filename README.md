@@ -28,7 +28,7 @@ Show a stream of transactions in the topic T (optionally add --from-beginning):
 
 $ docker-compose -f docker-compose.kafka.yml exec broker kafka-console-consumer --bootstrap-server localhost:9092 --topic streaming.transactions.fraud
 
-{"source": "oJv6wcG1j3q7", "target": "ogiiYV7RPO5h", "amount": 7525.81, "currency": "USD"}
+{"source": "oJv6wcG1j3q7", "target": "ogiiYV7RPO5h", "amount": 952.81, "currency": "USD"}
 
 $ docker-compose -f docker-compose.kafka.yml exec broker kafka-console-consumer --bootstrap-server localhost:9092 --topic streaming.transactions.legit
 
